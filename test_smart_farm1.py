@@ -1,9 +1,9 @@
 import requests
 
 # ---------- CONFIG ----------
-BASE_URL = "http://127.0.0.1:8000/api"  # change if needed
-USERNAME = "rwibutso"
-PASSWORD = "9090"  # your real password
+BASE_URL = ""  # change if needed
+USERNAME = ""
+PASSWORD = ""  # your real password
 
 # ---------- STEP 1: Get JWT Token ----------
 token_url = f"{BASE_URL}/token/"
